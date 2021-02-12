@@ -1,4 +1,4 @@
-#Import Librarie That We Will Use
+#Import Libraries That We Will Use
 library(readxl)
 library(AER)
 library(lmtest)
@@ -9,7 +9,7 @@ library(dplyr)
 
 #Load The Pure Data
 
-SDoE <- read.csv('C:/Users/AG/Documents/Sudan Direction of Export Data.csv')
+SDoE <- read.csv('.../Sudan Direction of Export Data.csv')
 
 Net_foreign_Trade <- read.csv('C:/Users/AG/Documents/Net Foreign Trade.csv')
 View(SDoE)
